@@ -608,12 +608,14 @@ public class WeaponAnimationReplacerPlugin extends Plugin {
 				if (lastCastedOnActorToTransmogHitSplashOn.getGraphic() == toReplace.getHitGfx())
 				{
 					lastCastedOnActorToTransmogHitSplashOn.setGraphic(toReplaceWith.getHitGfx());
+					lastCastedOnActorToTransmogHitSplashOn.setGraphicHeight(toReplaceWith.getEndHeight());
 				}
 			}
 			else
 			{
 				delayedGfxToApply = toReplaceWith.getHitGfx();
 				// TODO gfx height.
+				lastCastedOnActorToTransmogHitSplashOn.setGraphicHeight(toReplaceWith.getEndHeight());
 				actorToApplyDelayedGfxTo = lastCastedOnActorToTransmogHitSplashOn;
 				timeToApplyDelayedGfx = endCycle;
 			}
