@@ -198,7 +198,7 @@ public final class ProjectileCast
 		projectiles.add(p().itemId(ItemID.ADAMANT_JAVELIN).ids(7555, -1, 204, -1, 32, 11, 144, 15, 0).build());
 		projectiles.add(p().itemId(ItemID.RUNE_JAVELIN).ids(7555, -1, 205, -1, 32, 11, 144, 15, 0).build());
 		projectiles.add(p().itemId(ItemID.AMETHYST_JAVELIN).ids(7555, -1, 1386, -1, 32, 11, 144, 15, 0).build());
-		projectiles.add(p().itemId(ItemID.DRAGON_JAVELIN).ids(7555, -1, 206, -1, 32, 11, 144, 15, 0).build());
+		projectiles.add(p().itemId(ItemID.DRAGON_JAVELIN).ids(7555, -1, 1301, -1, 32, 11, 144, 15, 0).build());
 
 		projectiles.add(p().itemId(ItemID.BLACK_CHINCHOMPA).ids(7618, -1, 1272, 157, 21, 11, 144, 15).build()); // only has hit gfx when in multicombat area.
 		projectiles.add(p().itemId(ItemID.RED_CHINCHOMPA).ids(7618, -1, 909, 157, 21, 11, 144, 15, 0).build()); // only has hit gfx when in multicombat area.
